@@ -1,5 +1,5 @@
 import { useEffect, useReducer } from "react";
-import { todoReducer } from "../08-useReducer/todoReducer";
+import { todoReducer } from "./todoReducer";
 
 //El init es esl tercer argumento de mi useReducer y es una funcion inicicializadora(initializerArg)
 //La voy a usar para persisitir los datos después de recargar el navegador
